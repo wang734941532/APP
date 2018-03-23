@@ -19,5 +19,15 @@ public class DevController {
 	public String maintenance() {
 	return "dev/dev_app_maintenance";	
 	}
+	
+	@RequestMapping("/add")
+	public String add() {
+	return "dev/app_add";	
+	}
+	
+	@RequestMapping("/modify")
+	public String modify() {
+	return "dev/modify_app";	
+	}
 
 }
