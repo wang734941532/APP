@@ -232,7 +232,7 @@
                         <span class="sr-only">Toggle Dropdown</span>
                       </button>
                       <ul class="dropdown-menu" role="menu">
-                       
+                        
                         <li><a href="${pageContext.request.contextPath}/dev/add_version">新增版本</a>
                         </li>
                         <li><a href="#">修改版本</a>

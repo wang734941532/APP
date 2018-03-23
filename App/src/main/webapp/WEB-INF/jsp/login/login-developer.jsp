@@ -10,7 +10,7 @@
     <link href="${pageContext.request.contextPath }/statics/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="${pageContext.request.contextPath }/statics/css/nprogress.css" rel="stylesheet">
-
+ 
     <!-- Custom Theme Style -->
     <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
 </head>
