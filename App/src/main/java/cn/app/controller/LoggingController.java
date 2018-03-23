@@ -9,17 +9,17 @@ public class LoggingController {
 	
 	@RequestMapping("/login")
 	public String login() {
-		return "enter";
+		return "login/enter";
 	}
 	
 	
 	@RequestMapping("/login-back")
 	public String login2() {
-		return "login-back";
+		return "login/login-back";
 	}
 	
 	@RequestMapping("/login-developer")
 	public String login3() {
-		return "login-developer";
+		return "login/login-developer";
 	}
 }

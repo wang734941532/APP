@@ -65,35 +65,26 @@
                 	
                   <li><a><i class="fa fa-home"></i> APP帐户管理 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">管理1</a></li>
-                      <li><a href="index2.html">管理2</a></li>
-                      <li><a href="index3.html">管理3</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">暂无功能</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">暂无功能</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">暂无功能</a></li>
                     </ul>
                   </li>
                   
                   
                   <li><a><i class="fa fa-edit"></i>APP应用管理<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">管理1</a></li>
-                      <li><a href="form_advanced.html">管理1 </a></li>
-                      <li><a href="form_validation.html">管理1</a></li>
-                      <li><a href="form_wizards.html">管理1</a></li>
-                      <li><a href="form_upload.html">管理1</a></li>
-                      <li><a href="form_buttons.html">管理1</a></li>
+                      <li><a href="${pageContext.request.contextPath }/manager/validate">APP审核</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">广告推广 </a></li>
+                     
                     </ul>
                   </li>
                   
-                  <li><a><i class="fa fa-desktop"></i>APP维护 <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-desktop"></i>基础数据维护 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="general_elements.html">1</a></li>
-                      <li><a href="media_gallery.html">管理1</a></li>
-                      <li><a href="typography.html">管理1</a></li>
-                      <li><a href="icons.html">管理1</a></li>
-                      <li><a href="glyphicons.html">管理1</a></li>
-                      <li><a href="widgets.html">管理1</a></li>
-                      <li><a href="invoice.html">管理1</a></li>
-                      <li><a href="inbox.html">管理1</a></li>
-                      <li><a href="calendar.html">管理1</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">暂无功能</a></li>
+                      <li><a href="${pageContext.request.contextPath }/error">暂无功能</a></li>
+                      
                     </ul>
                   </li>
                   
