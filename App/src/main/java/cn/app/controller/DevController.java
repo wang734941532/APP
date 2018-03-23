@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/dev")
 public class DevController {
 	
-    //d_b_display.jsp   ¿ª·¢ÕßºóÌ¨Ê×Ò³Õ¹Ê¾
+    //d_b_display.jsp   ï¿½ï¿½ï¿½ï¿½ï¿½ßºï¿½Ì¨ï¿½ï¿½Ò³Õ¹Ê¾
 	@RequestMapping("/first_display")
 	public String ss() {
 	return "dev/d_b_display";	
 	}
 	
 
-	//dev_app_maintenance.jsp   ¿ª·¢ÕßÎ¬»¤½çÃæ
+	//dev_app_maintenance.jsp   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	@RequestMapping("/maintenance")
 	public String maintenance() {
 	return "dev/dev_app_maintenance";	
@@ -29,5 +29,8 @@ public class DevController {
 	public String modify() {
 	return "dev/modify_app";	
 	}
-
+	@RequestMapping("/add_version")
+	public String version() {
+	return "dev/add_version";	
+	}
 }

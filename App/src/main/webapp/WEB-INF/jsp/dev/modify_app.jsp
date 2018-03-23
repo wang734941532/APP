@@ -143,7 +143,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>您现在所在页面：管理员界面<small></small></h2>
+                    <h2>您现在所在页面：管界面<small></small><strong>|角色:APP开发者</strong></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -166,7 +166,7 @@
                     <form class="form-horizontal form-label-left" novalidate enctype="multipart/form-data">
 
                       </p>
-                      <span class="section">新增APP基础信息</span>
+                      <span class="section">修改APP基础信息</span>
 
                       <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Sname">软件名称<span class="required">*</span>

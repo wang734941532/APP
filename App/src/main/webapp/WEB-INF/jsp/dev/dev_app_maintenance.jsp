@@ -194,7 +194,7 @@
                       <br/>
                       </div>
 
-                      <div class="clearfix"></div>
+                      <div class="clearfix"><button name="add" id="add"  class="btn btn-sm btn-success"><a href="${pageContext.request.contextPath}/dev/add">新增APP基础信息</a></button></div>
 
                       <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
                         <div class="well profile_view">
@@ -233,7 +233,7 @@
                       </button>
                       <ul class="dropdown-menu" role="menu">
                        
-                        <li><a href="${pageContext.request.contextPath}/dev/add">新增版本</a>
+                        <li><a href="${pageContext.request.contextPath}/dev/add_version">新增版本</a>
                         </li>
                         <li><a href="#">修改版本</a>
                         </li>
