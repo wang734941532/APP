@@ -46,7 +46,7 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
 	</bean>
 	
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="cn.app.dao,cn.app.map"></property>
+		<property name="basePackage" value="cn.app.dao"></property>
 	</bean>
 	
 	

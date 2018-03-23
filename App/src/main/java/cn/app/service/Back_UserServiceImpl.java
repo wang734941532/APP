@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import cn.app.dao.Back_UserMapper;
 import cn.app.pojo.Back_User;
-@Service("Back_UserService")
+@Service("back_UserService")
 public class Back_UserServiceImpl implements Back_UserService {
 	@Autowired
 	private Back_UserMapper back_UserMapper;
