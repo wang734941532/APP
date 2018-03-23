@@ -19,13 +19,13 @@
 		<div>
 			<div class="login_wrapper">
 				<section class="login_content">
-					<form>
+					<form action="${pageContext.request.contextPath }/login-back" method="post">
 						<h1>APP后台管理系统</h1>
 						<div>
-							<input type="text" class="form-control" placeholder="请输入用户名" required="" />
+							<input type="text" class="form-control" placeholder="请输入用户名" required name="userCode" id="userCode"/>
 						</div>
 						<div>
-							<input type="password" class="form-control" placeholder="请输入 密码" required="" />
+							<input type="password" class="form-control" placeholder="请输入 密码" required name="userPassword" id="userPassword"/>
 						</div>
 						<div>
 							<input type="submit" name="loginbtn" id="" value="登录" class="btn btn-success btn-lg  submit" />
