@@ -16,6 +16,9 @@
     id, userCode, userName, userType, createdBy, creationDate, modifyBy, modifyDate, 
     userPassword
   </sql>
+  <select id="getLoginUser" resultType="Back_User" parameterType="string" >
+  	select * from backend_user where userCode = #{userCode}
+  </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
