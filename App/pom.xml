@@ -4,7 +4,7 @@
   <artifactId>App</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
+   
    <properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>4.3.14.RELEASE</spring.version>
