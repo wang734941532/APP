@@ -21,7 +21,7 @@ public class LoginController {
 	}
 
 
-	@RequestMapping(value="/login",method=RequestMethod.GET)
+	@RequestMapping("/login")
 	public String login() {
 		return "login/enter";
 	}
