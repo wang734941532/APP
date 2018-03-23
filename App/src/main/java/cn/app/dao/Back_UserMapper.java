@@ -14,4 +14,7 @@ public interface Back_UserMapper {
     int updateByPrimaryKeySelective(Back_User record);
 
     int updateByPrimaryKey(Back_User record);
+    
+    //Back_User login 
+    public Back_User getLoginUser(String userCode);
 }
