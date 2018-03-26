@@ -27,6 +27,7 @@
 						<div>
 							<input type="password" class="form-control" placeholder="请输入 密码" required name="userPassword" id="userPassword"/>
 						</div>
+						
 						<div>
 							<input type="submit" name="loginbtn" id="" value="登录" class="btn btn-success btn-lg  submit" />
 							<input type="reset" name="resetbtn" id="" value="重置" class="btn btn-default btn-lg  reset" />
