@@ -18,7 +18,7 @@
 		<div>
 			<div class="login_wrapper">
 				<section class="login_content">
-					<form>
+					<form action="${pageContext.request.contextPath }/login-developer" method="post">
 						<h1>APP开发者平台</h1>
 						<div>
 							<input type="text" class="form-control" placeholder="请输入用户名" required="" />

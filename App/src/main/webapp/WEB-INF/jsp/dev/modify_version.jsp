@@ -145,7 +145,7 @@
                 <div class="x_panel"><!--??面板-->
                 	
                 	<div class="x_title"><!--题目1title-->
-              			<h2> 新增最新版本信息  <i class="fa fa-user"></i> <span>测试账号001</span></h2>
+              			<h2> 修改APP最新版本信息  <i class="fa fa-user"></i> <span>测试账号001</span></h2>
               			<div class="clearfix"></div>
               		</div><!--题目1title end-->
               		<div class="x_title"><!--题目2title-->
@@ -197,7 +197,7 @@
                     </table>
               		</div><!--历史版本列表 end-->
                   <div class="x_title"><!--题目3title-->
-                    <h2> 新增最新版本信息 </h2>
+                    <h2> 修改最新版本信息 </h2>
                     <!--右边三个图标的HTML-->
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>

@@ -24,6 +24,7 @@ public class Back_UserServiceImpl implements Back_UserService {
 		}
 		//匹配密码
 		if(null != buser){
+System.out.println("后台验证");
 			if(!buser.getUserpassword().equals(userPassword))
 				buser = null;
 		}

@@ -235,7 +235,7 @@
                         
                         <li><a href="${pageContext.request.contextPath}/dev/add_version">新增版本</a>
                         </li>
-                        <li><a href="#">修改版本</a>
+                        <li><a href="${pageContext.request.contextPath}/dev/modify_version">修改版本</a>
                         </li>
                         <li><a href="${pageContext.request.contextPath}/dev/modify" title="修改APP基础信息">修改</a>
                         </li>

@@ -7,14 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/dev")
 public class DevController {
 	
-    //d_b_display.jsp   �����ߺ�̨��ҳչʾ
 	@RequestMapping("/first_display")
 	public String ss() {
 	return "dev/d_b_display";	
 	}
 	
 
-	//dev_app_maintenance.jsp   ������ά������
 	@RequestMapping("/maintenance")
 	public String maintenance() {
 	return "dev/dev_app_maintenance";	
@@ -30,7 +28,13 @@ public class DevController {
 	return "dev/modify_app";	
 	}
 	@RequestMapping("/add_version")
-	public String version() {
+	public String add_version() {
 	return "dev/add_version";	
 	}
+	
+	@RequestMapping("/modify_version")
+	public String modify_version() {
+	return "dev/modify_version";	
+	}
+	
 }
