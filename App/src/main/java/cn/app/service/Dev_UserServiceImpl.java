@@ -18,19 +18,18 @@ public class Dev_UserServiceImpl implements Dev_UserService {
 	}
 
 	@Override
-	public Dev_User login(String userCode, String userPassword) {
+	public Dev_User login(String devCode, String devPassword) {
 		Dev_User duser = null;
 		try {
-		String devCode = userCode;
+			System.out.println(devCode+"=================");
 	 	duser  = dev_UserMapper.getLoginUser(devCode);
 	 	System.out.println("usermapper获得的User"+duser);
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
 		if(null!=duser) {
-			System.out.println(duser);
-			System.out.println(duser.getDevpassword());
-			if(!duser.getDevpassword().equals(userPassword)) {
+		
+			if(!duser.getDevpassword().equals(devPassword)) {
 				duser=null;
 			}
 		}

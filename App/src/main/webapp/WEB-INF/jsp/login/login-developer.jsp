@@ -21,10 +21,10 @@
 					<form action="${pageContext.request.contextPath }/login-developer" method="post">
 						<h1>APP开发者平台</h1>
 						<div>
-							<input type="text" class="form-control" placeholder="请输入用户名" required="" />
+							<input type="text" class="form-control" placeholder="请输入用户名" required name="devCode" id="devCode"/>
 						</div>
 						<div>
-							<input type="password" class="form-control" placeholder="请输入 密码" required="" />
+							<input type="password" class="form-control" placeholder="请输入 密码" required name="devPassword" id="devPassword" />
 						</div>
 						<div>
 							<input type="submit" name="loginbtn" id="" value="登录" class="btn btn-success btn-lg  submit" />

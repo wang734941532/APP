@@ -56,7 +56,7 @@ public class LoginController {
 		}
 		
 	}
-	@RequestMapping("/login-developer")
+	@RequestMapping(value="/login-developer",method=RequestMethod.GET)
 	public String login3() {
 		return "login/login-developer";
 	}
@@ -65,12 +65,13 @@ public class LoginController {
 	
 	
 	@RequestMapping(value="/login-developer",method=RequestMethod.POST)
-	public String login3_post(String userCode,
-			String userPassword,
+	public String login3_post(String devCode,
+			String devPassword,
 			Model model) {
 System.out.println("app,login ============ " );
+System.out.println(devCode+"==="+devPassword);
 		//调用service方法，进行用户匹配
-		Dev_User duser=dev_UserService.login(userCode, userPassword);
+		Dev_User duser=dev_UserService.login(devCode, devPassword);
 		if(null != duser){//登录成功
 			//放入session
 			model.addAttribute("user", duser);

@@ -20,5 +20,5 @@ public interface Dev_UserMapper {
     
     
     //Dev_User login 
-    public Dev_User getLoginUser(@Param("devCode") String devCode);
+    public Dev_User getLoginUser(String devCode);
 }
